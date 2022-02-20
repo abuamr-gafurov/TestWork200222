@@ -1,0 +1,26 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@kouts/vue-modal": "^2.0.10",
+    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/toast": "^3.3.1",
+    "@tailwindcss/forms": "^0.3.3",
+    "core-js": "^3.9.1",
+    "notiwind": "^1.2.3",
+    "nuxt": "^2.15.3",
+    "vue-slick-carousel": "^1.0.6",
+    "vue-yandex-maps": "^0.11.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^4.0.1",
+    "postcss": "^8.2.8"
+  }
+}

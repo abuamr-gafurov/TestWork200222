@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  outline: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", "sans-serif" !important;
+}
+
+.MainSlider .slick-dots li.slick-active button:before {
+  color: #d60051 !important;
+}
+
+.MainSlider .slick-dots {
+  bottom: 1rem !important;
+}
+
+.MainSlider .slick-dots li button:before {
+  font-size: 10px !important;
+}
+
+.MainSlider .slick-dots li {
+  margin: 0 2px !important;
+}
+
+.vm-addon {
+  @apply top-32 min-w-11/12 2xl:min-w-8/12 w-11/12 2xl:w-8/12 !important;
+}
+
+.vm-addon .vm-titlebar {
+  display: none;
+}
+
+.vm-addon .vm-content {
+  padding: 0 !important;
+}
+
+.vm-backdrop {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
